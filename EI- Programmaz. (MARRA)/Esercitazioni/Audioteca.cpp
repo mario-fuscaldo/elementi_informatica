@@ -1,11 +1,13 @@
 /*
-Scrivere un programma in C++ che consente di inserire un array di CD, ognuno descritto dall'autore, il titolo, e i titoli delle tracce, e poi trovare un CD tra quelli inseriti.
+Scrivere un programma in C++ che consente di inserire un array di CD, 
+ognuno descritto dall'autore, il titolo, e i titoli delle tracce, e poi trovare un CD tra quelli inseriti.
 A tale scopo, utilizzare la struttura descritta di seguito.
 
 ESEMPIO DI FUNZIONAMENTO sul moodle del corso
 
 OPZIONI --------------------------------
-Questo programma consente di inserire una lista di CD, e di trovarne uno in base all'autore, al titolo o ai titoli delle tracce e visualizzare secondo l'ordine desiderato.
+Questo programma consente di inserire una lista di CD, 
+e di trovarne uno in base all'autore, al titolo o ai titoli delle tracce e visualizzare secondo l'ordine desiderato.
 
 1) per inserire CD alla lista.
 2) per trovare un CD in base all'autore.

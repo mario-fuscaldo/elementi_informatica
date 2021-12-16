@@ -1,4 +1,4 @@
-// Questo programma calcola il massimo e la sua posizione tra N numeri dove N è al massimo 100 e minimo 2
+// Questo programma calcola il massimo e la sua posizione tra N numeri dove N ï¿½ al massimo 100 e minimo 2
 #include<iostream>
 using namespace std;
 
@@ -44,7 +44,7 @@ int main()
 		if(v[i]>max)
 		{
 			max=v[i];
-			imax=i+1;
+			imax=i+1;//poteva anche essere i
 		}
 	}
 	cout<<endl<<"Il massimo e' "<<max<<", che si trova in posizione "<<imax;

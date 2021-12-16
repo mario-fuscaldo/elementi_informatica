@@ -13,7 +13,7 @@ int main()
 	cout<<"Inserisci lunghezza del vettore: ";
 	cin>>N;
 	
-	// Si può inserire il controllo sulla lunghezza del vettore
+	// Si puï¿½ inserire il controllo sulla lunghezza del vettore
 	
 	for(int i=0;i<N;i++)
 	{
@@ -25,7 +25,7 @@ int main()
 	cin>>x;
 	
 	contenuto=false;
-	for(int i=0;i<N;i++) //Si può sostituire con un while per non scorrere tutto il vettore o modificare la condizione del for
+	for(int i=0;i<N;i++) //Si puï¿½ sostituire con un while per non scorrere tutto il vettore o modificare la condizione del for
 		contenuto=contenuto||(x==v[i]);
 	
 	if(contenuto)
