@@ -221,10 +221,12 @@ int calcolo_sosta(Orario , Orario);
 		cin.ignore();
 		cin.getline(t,20);
 
+
+
 		bool trovato=false;
 		for (int i=0; i<N; i++) {		//per ogni piano	
 			for (int j=0; j<M; j++){	//cicla occupatov e vedi se è libero o occupato
-				if(strcmp(t,p[i].vposto[j].autov.targa)==0){
+				if(strcmp(t,p[i].vposto[j].autov.targa)==0){  //strcmp ritorna 0 se le stringhe sono uguali
 					trovato=true;
 					cout<<"la macchina è al posto "<<j<<" del piano "<<i<<endl;
 					do{
@@ -233,7 +235,8 @@ int calcolo_sosta(Orario , Orario);
 						cin>>temp.ora;
 						cout<<"minuti"<<endl;
 						cin>>temp.min;
-						if( !(a=check_orario(p[i].vposto[j].orario,temp) ) ){ //esegue l'assegnazione dentro l'if
+
+						if( !(a=check_orario(p[i].vposto[j].orario,temp) ) ){ //esegue la chiamata e l'assegnazione dentro l'if
 							cout<<"orario di uscita minore di ingresso"<<endl;
 						}
 					}while(!a);
